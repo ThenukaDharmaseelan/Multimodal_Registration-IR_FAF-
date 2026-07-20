@@ -95,7 +95,7 @@ conda create -n irfaf_env python=3.10 -y
 conda activate irfaf_env
 
 # install the package (pulls the dependencies below)
-pip install -e .
+pip install - requirements.txt
 ```
 
 Or create it in one step from an `environment.yml`:
