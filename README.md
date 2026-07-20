@@ -87,7 +87,7 @@ Requires **Python 3.9+**.
 ### Option A — Conda (recommended)
 
 ```bash
-git clone https://github.com/<your-org>/retina_multimodal_reg.git
+git clone https://github.com/ThenukaDharmaseelan/Multimodal_Registration-IR_FAF-.git
 cd retina_multimodal_reg
 
 # create and activate the environment
@@ -125,7 +125,7 @@ conda activate irfaf_env
 ### Option B — venv
 
 ```bash
-git clone https://github.com/<your-org>/retina_multimodal_reg.git
+git clone https://github.com/ThenukaDharmaseelan/Multimodal_Registration-IR_FAF-.git
 cd retina_multimodal_reg
 python -m venv .venv && source .venv/bin/activate
 pip install -e .
