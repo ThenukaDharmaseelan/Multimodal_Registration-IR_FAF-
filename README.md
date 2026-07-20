@@ -5,9 +5,6 @@ wide-field fundus autofluorescence (FAF, 55°) images onto infrared reflectance
 (IR, 30°) images using a validated **FOV-seed → LoFTR → optical-flow cascade**,
 with anatomical-score candidate selection and built-in quality flagging.
 
-> The package was formerly named `fafir_registration`; that import path still
-> works as a thin compatibility shim (see [Legacy import](#legacy-import)).
-
 ---
 
 ## Table of contents
@@ -439,32 +436,5 @@ retina_multimodal_reg/
 └── visualization.py    # diagnostic images + grids
 ```
 
----
 
-## Legacy import
-
-The historical package name still works:
-
-```python
-import fafir_registration                 # compatibility shim
-from fafir_registration import register   # re-exported from retina_multimodal_reg
-```
-
-The shim re-exports the public API and registers submodules under the old
-import path. Prefer `retina_multimodal_reg` in new code.
-
----
-
-## Citation
-
-If you use this software in your research, please cite:
-
-```bibtex
-@software{retina_multimodal_reg,
-  title  = {retina_multimodal_reg: FAF-IR retinal image registration},
-  author = {<Author list>},
-  year   = {2026},
-  url    = {https://github.com/<your-org>/retina_multimodal_reg}
-}
-```
 
