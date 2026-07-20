@@ -22,9 +22,7 @@ with anatomical-score candidate selection and built-in quality flagging.
 - [Ablation study](#ablation-study)
 - [Reproducibility](#reproducibility)
 - [Project structure](#project-structure)
-- [Legacy import](#legacy-import)
-- [Citation](#citation)
-- [License](#license)
+
 
 ---
 
