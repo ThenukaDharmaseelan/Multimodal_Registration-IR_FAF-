@@ -1,0 +1,17 @@
+# envs
+irfaf_env/
+.venv/
+# python
+__pycache__/
+*.pyc
+# outputs & data
+output*/
+out_*/
+*.png
+*.jpg
+*.jpeg
+sample.csv
+# model weights
+*.pth
+*.pt
+*.ckpt
